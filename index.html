@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f44fcf5e15.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header" id="header1">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li class="laptop-devices mobile-devices">
+              <a href="#header1" class="size">Home</a>
+            </li>
+            <li class="laptop-devices mobile-devices">
+              <a href="#about1" class="size">Order</a>
+            </li>
+            <li class="laptop-devices mobile-devices">
+              <a href="#services1" class="size">Food</a>
+            </li>
+            <li class="laptop-devices mobile-devices">
+              <a href="#" class="size">Restaurant</a>
+            </li>
+            <li class="laptop-devices mobile-devices">
+              <a href="#contact1" class="size">Testimonials</a>
+            </li>
+            <li class="laptop-devices mobile-devices">
+              <a href="#contact1" class="size">Contact Us</a>
+            </li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    </div>
+    <!-- **********************About********************** -->
+
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <h1 class="element" style="margin-left: 8%">LOREM IPSUM</h1>
+            <p class="paragraph" style="margin-right: 8%; margin-left: 8%">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates qui mollitia aliquam molestias, cum labore dolores
+              nobis ipsam ipsum esse impedit sit vel tenetur similique. Aut quas
+              quasi hic id minus ratione repudiandae dolorem maiores, neque
+              nobis quisquam tempore delectus suscipit odio incidunt qui
+              cupiditate quia quis tenetur. Autem porro ea velit sunt natus,
+              eligendi provident adipisci. Doloremque, aspernatur dolorum?
+            </p>
+            <button
+              class="btn"
+              type="button"
+              style="font-size: 0.9rem; margin-left: 8%"
+            >
+              Click Me
+            </button>
+          </div>
+          <div class="about-col-2">
+            <img src="pexels-robin-stickel-70497.jpg" alt="Error" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *************************************************** -->
+
+    <!-- <div class="second-about">
+      <div class="container">
+        <div class="row">
+          <div class="first-half">
+            <div class="divide-half">
+              <div class="grid-item item1">
+                <img
+                  class="pain"
+                  src="pexels-rachel-claire-6752433.jpg"
+                  alt="Error"
+                />
+              </div>
+              <div class="grid-item item2">
+                <img
+                  class="pain"
+                  src="pexels-eva-bronzini-6141651.jpg"
+                  alt="Error"
+                />
+              </div>
+              <div class="grid-item item3">
+                <img
+                  class="second-pain"
+                  src="pexels-mister-mister-3434523.jpg"
+                  alt="Error"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="second-half">
+            <div class="content">
+              <p style="margin-left: 5%">LOREM IPSUM</p>
+              <h1 style="font-size: 2.5rem; margin-left: 5%">
+                <b>LOREM IPSUM SET ADEMIR</b>
+              </h1>
+              <i style="margin-left: 5%">Click</i>
+              <i
+                ><img class="img-size" src="icons8-arrow-30.png" alt="error"
+              /></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = 0;
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-670px";
+      }
+    </script>
+  </body>
+</html>
